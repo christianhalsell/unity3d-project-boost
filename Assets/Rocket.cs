@@ -5,6 +5,7 @@ public class Rocket : MonoBehaviour
 {
     [SerializeField] float rcsThrust = 100f; // [SerializedField] makes variable public to Unity
     [SerializeField] float mainThrust = 50f;
+    [SerializeField] float levelLoadDelay = 2f;
 
     [SerializeField] AudioClip mainEngine;
     [SerializeField] AudioClip death;
@@ -64,7 +65,7 @@ public class Rocket : MonoBehaviour
         audioSource.Stop();
         audioSource.PlayOneShot(success);
         successParticles.Play();
-        Invoke("LoadNextLevel", 1f); // "Ivoke" is a timeout
+        Invoke("LoadNextLevel", levelLoadDelay); // "Ivoke" is a timeout
     }
 
     private void StartDeathSequence()
@@ -73,17 +74,17 @@ public class Rocket : MonoBehaviour
         audioSource.Stop();
         audioSource.PlayOneShot(death);
         deathParticles.Play();
-        Invoke("LoadFirstLevel", 1f);
-    }
-
-    private void LoadFirstLevel()
-    {
-        SceneManager.LoadScene(0);
+        Invoke("LoadFirstLevel", levelLoadDelay);
     }
 
     private void LoadNextLevel()
     {
         SceneManager.LoadScene(1); //TODO allow for more than two levels
+    }
+
+    private void LoadFirstLevel()
+    {
+        SceneManager.LoadScene(0);
     }
 
     private void RespondToThrustInput()

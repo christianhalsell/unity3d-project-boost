@@ -407,12 +407,12 @@ PrefabInstance:
     - target: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.6
+      value: 15.4
       objectReference: {fileID: 0}
     - target: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.1
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
         type: 3}
@@ -1051,6 +1051,27 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 73a49c80b0fbb41bc83f554a4fd9baad, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2c4061b6fc2d401eb62b95d36c3ad69, type: 3}
+--- !u!1 &1580148405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3281488761898957493, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
+    type: 3}
+  m_PrefabInstance: {fileID: 1764731313}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1580148409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580148405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ad09c3c4c4743fa95623a3c99b72e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 20, y: 0, z: 0}
+  period: 2
+  movementFactor: 0
 --- !u!1001 &1764731313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1061,12 +1082,12 @@ PrefabInstance:
     - target: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.3
+      value: -15.9
       objectReference: {fileID: 0}
     - target: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.3
+      value: 23.9
       objectReference: {fileID: 0}
     - target: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
         type: 3}
@@ -1086,12 +1107,12 @@ PrefabInstance:
     - target: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.32092908
+      value: 0.21415481
       objectReference: {fileID: 0}
     - target: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.94710326
+      value: 0.9767998
       objectReference: {fileID: 0}
     - target: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
         type: 3}
@@ -1111,7 +1132,7 @@ PrefabInstance:
     - target: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 37.438004
+      value: 24.732
       objectReference: {fileID: 0}
     - target: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
         type: 3}
@@ -1336,6 +1357,27 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 73a49c80b0fbb41bc83f554a4fd9baad, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2c4061b6fc2d401eb62b95d36c3ad69, type: 3}
+--- !u!1 &2062901196 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3281488761898957493, guid: d2c4061b6fc2d401eb62b95d36c3ad69,
+    type: 3}
+  m_PrefabInstance: {fileID: 499349308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2062901200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062901196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ad09c3c4c4743fa95623a3c99b72e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 5, y: 5, z: 0}
+  period: 2
+  movementFactor: 0
 --- !u!4 &2119721851 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1155709681624585841, guid: d2c4061b6fc2d401eb62b95d36c3ad69,

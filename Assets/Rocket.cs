@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Rocket : MonoBehaviour
 {
-    [SerializeField] float rcsThrust = 100f; // [SerializedField] makes variable public to Unity
+    [SerializeField] float rcsThrust = 200f; // [SerializedField] makes variable public to Unity
     [SerializeField] float mainThrust = 50f;
     [SerializeField] float levelLoadDelay = 2f;
 

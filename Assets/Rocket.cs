@@ -20,9 +20,6 @@ public class Rocket : MonoBehaviour
 
     bool isTransitioning = false;
 
-    //enum State { Alive, Dying, Transcending };
-    //State state = State.Alive;
-
     bool collisionsAreDisabled = false;
 
     // Start is called before the first frame update
